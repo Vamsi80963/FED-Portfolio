@@ -99,7 +99,7 @@ nav ul li a:hover::after{
 .icon{
     display: flex;
 }
-@media (max-width: 100%) {
+@media only screen and (min-width: 600px) {
     .header-text {
       margin-top: 70px;
       padding-top: 100px;
@@ -154,22 +154,22 @@ nav ul li a:hover::after{
     color:blue;
     padding:20px 0px 20px 0px;
 }
-@media (max-width: 100%) {
+@media only screen and (min:width: 600px) {
     #About .main h2 {
-      padding-bottom: 50px;
+      padding-bottom: 180px;
     }
     #About img {
       height: 300px;
       width: 400px;
       padding-top: 30px;
-      padding-right: 30px;
+      padding-right: 40px;
     }
     .about-text {
       width: 100%;
     }
     .main {
       flex-direction: column;
-      font-size: 30px;
+      font-size: 20px;
     }
     .head {
       font-size: 30px;
@@ -215,7 +215,7 @@ nav ul li a:hover::after{
     color:black;
     font-weight: bold;
 }
-@media (max-width: 100%) {
+@media only screen and (min-width: 600px) {
     #Education h2 {
       font-size: 40px;
       width: 100%;
@@ -260,7 +260,7 @@ nav ul li a:hover::after{
 .skills:hover{
     transform: translateY(6px);
 }
-@media (max-width: 100%) {
+@media only screen and (min-width:600px) {
     #Skills h2 {
       font-size: 40px;
       width: 100%;
@@ -354,7 +354,7 @@ footer .ends {
     font-weight: bold;
     letter-spacing: 1px;
 }
-@media (max-width: 100%) {
+@media only screen and (min-width: 600px;) {
     #Contact h2 {
       font-size: 40px;
       width: 100%;
@@ -378,7 +378,7 @@ footer .ends {
       width: 50%;
     }
     .ends p {
-      padding-left: 5px;
+      padding-left: 0px;
       text-align: center;
     }
   }

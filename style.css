@@ -384,30 +384,16 @@ footer .ends {
     width: 70%;
   }
 }
-@media (min-width: 1025px) and (max-width: 1200px) {
-  .number form:nth-child(1),
-  .number form:nth-child(2),
-  input,
-  textarea,
-  #submit {
-    width: 60%;
-  }
-}
     @media (max-width: 768px) {
   .ends p {
-    padding-left: 10px;
+    padding-left: 5px;
     text-align: left;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
   .ends p {
-    padding-left: 20px;
+    padding-left: 10px;
     text-align: left;
   }
 }
-@media (min-width: 1025px) and (max-width: 1200px) {
-  .ends p {
-    padding-left: 30px;
-    text-align: left;
-  }
-}
+

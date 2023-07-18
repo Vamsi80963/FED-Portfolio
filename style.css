@@ -71,7 +71,7 @@ nav ul li a:hover::after{
     }
     nav ul li {
       display: block;
-      padding: 10px 0;
+      padding: 2px 0;
     }
   }
 .header-text{
@@ -101,13 +101,14 @@ nav ul li a:hover::after{
 }
 @media  (max-width: 768px) {
     .header-text {
-      margin-top: 70px;
+      margin-top: 50px;
       padding-top: 100px;
     }
     .header-text h3,
     .header-text h4,
     .header-text h1 {
       padding-left: 2px;
+        text-align:center;  
     }
   }
         /* About Me */

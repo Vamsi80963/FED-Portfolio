@@ -364,21 +364,49 @@ footer .ends {
       padding: 40px 0px;
       width: 50%;
     }
-    .number form :nth-child(1),
-    .number form :nth-child(2) {
-      width: 50%;
-    }
-    input {
-      width: 50%;
-    }
-    textarea {
-      width: 50%;
-    }
-    #submit {
-      width: 50%;
-    }
-    .ends p {
-      padding-left: 0px;
-      text-align: center;
-    }
+}
+    @media (max-width: 768px) {
+  .number form:nth-child(1),
+  .number form:nth-child(2),
+  input,
+  textarea,
+  #submit {
+    width: 100%;
   }
+    }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .number form:nth-child(1),
+  .number form:nth-child(2),
+  input,
+  textarea,
+  #submit {
+    width: 70%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .number form:nth-child(1),
+  .number form:nth-child(2),
+  input,
+  textarea,
+  #submit {
+    width: 60%;
+  }
+}
+    @media (max-width: 768px) {
+  .ends p {
+    padding-left: 10px;
+    text-align: left;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .ends p {
+    padding-left: 20px;
+    text-align: left;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .ends p {
+    padding-left: 30px;
+    text-align: left;
+  }
+}
